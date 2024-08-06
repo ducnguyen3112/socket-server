@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "start": "nodemon server.ts"
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "start-dev": "nodemon server.ts"
   },
   "dependencies": {
     "@types/express": "^4.17.21",
